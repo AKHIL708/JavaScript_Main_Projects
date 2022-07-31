@@ -1,0 +1,63 @@
+resume html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+</head>
+<body>
+    <form action="result.html" method="get">
+        <input type="text" name="name" placeholder="fName" >
+        <input type="text" name="email" placeholder="your email">
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+
+
+result.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume 2</title>
+</head>
+<body>
+    <h1> result page </h1>
+   <h3>
+       name : <span id="result-name"></span>
+   </h3>
+   <h3>
+       email : <span id="result-email"></span>
+   </h3>
+</body>
+<script src="resume.js"></script>
+</html>
+
+
+js
+window.addEventListener('load',()=>{
+
+    let params = (new URL(document.location)).searchParams;
+    const name = params.get('name')
+    const email = params.get('email')
+
+    document.getElementById("result-name").innerHTML = name
+    
+    document.getElementById("result-email").innerHTML = email
+})
+
+
+
+key Notes :: 
+ in this project only thing which we have did was getting the value from params in sense from the search bar itself first we were storing our values in  params and then fetch that ussing a call back funciton
+  let params = (new URL(document.location)).searchParams;

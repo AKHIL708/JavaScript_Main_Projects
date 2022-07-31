@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: 450px;
+    color: black;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.box{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+    width: fit-content;
+    /* margin-left: 50px; */ 
+}
+button{
+    width: 35px;
+    height: 30px;
+    background-color: rgb(50, 50, 223);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+

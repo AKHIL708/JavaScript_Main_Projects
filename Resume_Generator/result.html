@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume 2</title>
+    <link rel="stylesheet" href="resume.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+      <div class="wraper" id="wraper">
+    <div class="container_section">
+      <div class="childTwo">
+        <img
+          class="result_img"
+          src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+          alt="image of person"
+        />
+      </div>
+
+      <div class="childOne">
+        <h1 id="name" class="result_name"></h1>
+        <h3 id="position" class="result_position"></h3>
+        <!-- <p id="about" class="result_about"></p> -->
+      </div>
+
+      <div class="childThree">
+        <span class="spanTagChild" id="email"></span>
+        <i class="fa-solid fa-envelope"></i><br />
+
+        <span class="spanTagChild" id="phone"></span>
+        <i class="fa-solid fa-phone"></i><br />
+
+        <span class="spanTagChild" id="location"></span>
+        <i class="fa-solid fa-location-dot"></i><br />
+
+        <span class="spanTagChild" id="twitter"></span>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+
+    <div class="overAllSection">
+      <div class="sectionOne">
+        <h1 class="workexperience">Work Experience</h1>
+    </div>
+    <div class="sectionTwo">
+        <h2 class="skills">Skills</h2>
+    </div>
+</div>
+<div class="contentOverall">
+    <div class="contentOne">
+        <h2 style="color:rgb(29,161,242);" class="gappingBetweenHeading">About Yourself</h2> 
+            <p id="about" class="aboutContent"></p><br>
+            
+            <h2 style="color:rgb(29,161,242);" class="gappingBetweenHeading">Work Experience</h2> 
+            <p id="work"></p> <br>
+
+            <h2 style="color:rgb(29,161,242);" class="gappingBetweenHeading">Education</h2>
+            <ol>
+                 <p style="font-weight: bolder ; text-decoration: underline;">collge : </p>
+                <li id="college"></li>
+                <p style="font-weight: bolder; text-decoration: underline;">institute : </p>
+                <li id="institute"></li>
+            </ol>
+            <h2 style="color:rgb(29,161,242);" class="gappingBetweenHeading">Languages</h2>
+            <p id="language"></p>
+             </div>
+        <div class="contentTwo">
+            <h2 style="margin-bottom: 15px; color:rgb(29,161,242); margin-top: 30px;">programming languages</h2>
+            <ol>
+                <li  id="skillOne"></li>
+                <li  id="skillTwo"></li>
+                <li  id="skillThree"></li>
+                <li  id="skillFour"></li>
+                <li  id="skillFive"></li>
+                <li  id="skillSix"></li>
+                <li  id="skillSeven"></li>
+            </ol>
+            <h2 style="color:rgb(29,161,242);">Organisation Worked </h2>
+          <p id="organisationOne"></p>
+          <p id="organisationTwo"></p>
+          <p id="organisationThree"></p>
+          
+          <h2 style="color:rgb(29,161,242);">Awards</h2>
+          <p id="awards"></p>
+        </div>
+    </div>
+</div>
+<div class="printBtnSection">
+  <button onclick="Print()" class="bottonOfPrint">Print</button> <br>
+</div>
+<div class="ColorButtons">
+    <h1> Select Color Theme :</h1>
+    <button class="Colors" style="background-color: pink; border-radius: 25px ; padding:12px 12px ; border: none; " onclick="Pink()"></button>
+    <button class="Colors" style="background-color: yellow; border-radius: 25px ; padding:12px 12px ; border: none; " onclick="Yellow()"></button>
+    <button class="Colors" style="background-color:rgb(239, 221, 215); border-radius: 25px ; padding:12px 12px ; border: none; " onclick="Orange()"></button>
+    <button class="Colors" style="background-color: blue; border-radius: 25px ; padding:12px 12px ; border: none; " onclick="Blue()"></button>
+    <button class="Colors" style="background-color: purple; border-radius: 25px ; padding:12px 12px ; border: none; " onclick="Purple()"></button>
+</div>
+  </body>
+  <script src="resume.js"></script>
+</html>

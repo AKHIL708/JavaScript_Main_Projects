@@ -1,0 +1,13 @@
+let Datas = []
+function Add(){
+    // inputs value 
+    let Inputfname = document.getElementById("fname").value;
+    let Inputlname = document.getElementById("lname").value;
+    let Inputcname = document.getElementById("cname").value;
+    let Inputscore = document.getElementById("score").value;
+    // document.getElementById("container2").className = "container2"
+    let Delete = document.getElementById("delete").
+    Datas.push(Inputfname + " " + Inputlname + " " + Inputcname + " " + Inputscore + Delete +  "<br>")
+
+  document.getElementById("demo").innerHTML = Datas
+}

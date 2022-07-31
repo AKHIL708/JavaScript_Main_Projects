@@ -1,0 +1,15 @@
+let n = 5;
+const Start =()=>{
+
+ let x =    setInterval(() => {
+  let value =   document.getElementById("demo").innerHTML = n--
+  console.log(value)
+  if(value == 0){
+    alert("reached the end point")
+    clearInterval(x)
+    
+  }
+    }, 1000);
+
+   
+}

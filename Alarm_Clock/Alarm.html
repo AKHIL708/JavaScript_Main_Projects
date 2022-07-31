@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Cloack ⏰</title>
+    <link rel="stylesheet" href="Alarm.css">
+</head>
+<body>
+    <h1 class="navbar"> Alarm Clock ⏰</h1>
+    <div class="input">
+        <input type="number" id="inputVal" class="inputVal" placeholder="minutes" >
+    </div>
+<div class="heightofContainer">
+
+
+    <div class="boxContainer">
+     <div class="sectionOfTimer">
+        <h1 class="timerVal" id="minutes">00</h1> ：
+        <h1 class="timerVal" id="seconds">00</h1> ：
+        <h1 class="timerVal" id="milliseconds">00</h1> 
+     </div>
+    </div>
+    <div class="timerButtons">
+       <button class="playBtn" onclick="Start()">  ▶ </button>
+    </div>
+    <div class="note" style="display: flex; justify-content: center; margin-top: 12px;">
+        <h1>NOTE:</h1>
+        <p style="color:  gray; display: flex; justify-content: center; text-align: center; align-items: center;">Clock runs on only Minutes Basis only..</p>
+    </div>
+</div>
+  
+</body>
+<script src="Alarm.js"></script>
+</html>

@@ -1,0 +1,7 @@
+logics applied 
+
+creating a random numbers from Math functions
+getting a random symbols from an array ["+" , "-" , "*"]
+
+
+

@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/* resume styling here  */
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:rgb(29, 161, 242);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+.resumeContainer{
+    box-shadow: 1px 2px 5px black;
+    padding: 25px;
+    margin: 10px 155px ;
+}
+input{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+
+.resume_about{
+    border-radius: 5px;
+    border: 1px solid;
+}
+label{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+
+
+
+/* result styling is here :  */
+
+.container_section{
+    height: 130px;
+    border-bottom: 2px solid blue;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.result_img{
+    width: auto;
+    height: 70px;
+    margin: 0px 25px;
+    margin-top: 30px;
+    border-radius: 35px;
+}
+
+.childOne{
+    /* border: 1px solid; */
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: left;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.result_name{
+    font-size: 50px;
+}
+.result_position{
+    font-size: 25px;
+    color: #5a5ae3;
+}
+.childThree{
+    margin: 0px 55px;
+    /* margin-top: 25px; */
+    text-align: right;
+  
+}
+i{
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+/* section work is here ::  */
+.overAllSection{
+    display: flex;
+    margin: 5px 20px;
+}
+.workexperience{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.skills{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.sectionOne{
+/* border: 1px solid; */
+display: flex;
+justify-content: center;
+width: 50vw;
+margin: 0px 2px;
+}
+.sectionTwo{
+width: 50vw;
+display: flex;
+margin: 0px 2px;
+justify-content: center;
+}
+.contentOverall{
+    display: flex;
+
+}
+.contentOne{
+    width: 48vw;
+    align-items: center;
+    text-align: left;
+    margin: 0px 23px;
+    }
+.contentTwo{
+    width: 45vw;
+    align-items: center;
+    text-align: left;
+    margin: 0px -17px;
+}
+ol li{
+    list-style-type: none;
+}
+.gappingBetweenHeading{
+    margin-top: 25px;
+}
+
+.wraper{
+    margin: 5px 20px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    padding: 30px 15px;
+}
+
+.Pink{
+    margin: 5px 20px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 25px;
+    background-color: rgb(248, 215, 220);
+    padding: 30px 15px;
+}
+.Orange{
+    margin: 5px 20px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 25px;
+    background-color:rgb(239, 221, 215);
+    padding: 30px 15px;
+}
+.Purple{
+    margin: 5px 20px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 25px;
+    background-color: rgb(233, 137, 233);
+    padding: 30px 15px;
+}
+.Yellow{
+    margin: 5px 20px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 25px;
+    background-color:rgb(255, 255, 94);
+    padding: 30px 15px;
+}
+.Blue{
+    margin: 5px 20px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 25px;
+    background-color:rgb(198, 221, 240);
+    padding: 30px 15px;   
+}
+
+
+/* buttons element part is starting from here  */
+
+.ColorButtons{
+    font-weight: bolder;
+    font-size: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: gray;
+    text-shadow: 1px 2px 4px white;
+    margin: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+    
+}
+.printBtnSection{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Colors{
+    margin: 0px 4px ;
+}
+.bottonOfPrint{
+    padding: 5px 25px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    background-color: rgb(21, 161, 242);
+    border-radius: 15px;
+}
